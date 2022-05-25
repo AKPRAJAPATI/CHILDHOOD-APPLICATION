@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add(new Models("(a+b)2 = a2+b2+2ab"));
         arrayList.add(new Models("(a-b)2 = a2+b2-2ab"));
         arrayList.add(new Models("Find Table"));
+        arrayList.add(new Models("Multiply"));
 
 
         recyclerView.setAdapter(new Adapter(getApplicationContext(),arrayList));

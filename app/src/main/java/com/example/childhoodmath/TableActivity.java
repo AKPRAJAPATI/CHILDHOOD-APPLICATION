@@ -18,7 +18,6 @@ public class TableActivity extends AppCompatActivity {
     TextView showTableSEcond;
     ConstraintLayout constraintLayout;
     int ans = 0;
-    int ans1 = 0;
     StringBuffer buffer,buffer2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

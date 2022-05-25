@@ -14,6 +14,24 @@
         android:theme="@style/Theme.ChildHoodMath"
         tools:targetApi="31">
         <activity
+            android:name=".QueDigistsThree"
+            android:exported="false" />
+        <activity
+            android:name=".QueDigistsFifth"
+            android:exported="false" />
+        <activity
+            android:name=".QueDigistsFourth"
+            android:exported="false" />
+        <activity
+            android:name=".QueDigists"
+            android:exported="false" />
+        <activity
+            android:name=".MultiplyWork"
+            android:exported="false" />
+        <activity
+            android:name=".Multiply"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
@@ -22,10 +40,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".minusActivity" android:exported="false"/>
-        <activity android:name=".TableActivity" android:exported="false"/>
-        <activity android:name=".ActivityDetailBinding" android:exported="false"/>
-        <activity android:name=".MainActivity" android:exported="false"/>
+        <activity
+            android:name=".minusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TableActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityDetailBinding"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
     </application>
 
 </manifest>

@@ -58,6 +58,13 @@ public class Adapter extends RecyclerView.Adapter<Adapter.viewHolder> {
                         intent3.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         context.startActivity(intent3);
                         break;
+                         case 3:
+                        Intent intent4 = new Intent(v.getContext(),  Multiply.class);
+                        intent4.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                        context.startActivity(intent4);
+                        break;
+
+
                 }
             }
         });
